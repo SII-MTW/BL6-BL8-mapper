@@ -66,6 +66,13 @@ class MapperTests(unittest.TestCase):
         self.assertEqual(result.bl6_state_tuple.tolist(), full.bl6_state_tuple.tolist())
         self.assertNotIn("bl8_status", result)
 
+    def test_projection_never_mutates_input(self):
+        frame = self.features.copy(deep=True)
+        frame.loc[0, self.ref.feature_names()[0]] = np.inf
+        before = frame.copy(deep=True)
+        self.ref.project(frame)
+        pd.testing.assert_frame_equal(frame, before)
+
     def test_missing_columns_and_invalid_identifiers(self):
         with self.assertRaisesRegex(ValueError, "Missing .*feature columns"):
             self.ref.project(self.features.drop(columns=self.ref.feature_names()[0]))

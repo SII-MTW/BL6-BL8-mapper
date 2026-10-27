@@ -44,7 +44,11 @@ class ViewTransform:
     scale: np.ndarray
 
     def transform(self, frame: pd.DataFrame) -> tuple[np.ndarray, np.ndarray]:
-        values = frame.loc[:, self.features].apply(pd.to_numeric, errors="raise").to_numpy(float)
+        values = (
+            frame.loc[:, self.features]
+            .apply(pd.to_numeric, errors="raise")
+            .to_numpy(float, copy=True)
+        )
         values[~np.isfinite(values)] = np.nan
         missing = np.isnan(values)
         clipped = np.clip(values, self.lower, self.upper)
