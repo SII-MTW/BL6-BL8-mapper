@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bl6-bl8-mapper"
+version = "1.0.0"
+description = "Frozen BL6 and BL8 antibody-antigen interface signatures and exact catalog queries"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = ["numpy>=1.24", "pandas>=2.0"]
+
+[project.optional-dependencies]
+structures = ["gemmi>=0.6", "scipy>=1.10", "anarcii>=2.0"]
+dev = ["ruff>=0.9", "build>=1.2"]
+
+[project.scripts]
+bl8-map = "bl8_mapper.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+bl8_mapper = ["reference_space/*.csv", "reference_space/*.json"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/bl8_mapper/_prediction_features.py" = ["E741"]

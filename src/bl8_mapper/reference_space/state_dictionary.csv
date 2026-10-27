@@ -1,0 +1,30 @@
+view,state_code,state_name,n_reference_records,is_qc_state
+interface_topology,C0,HCDR3_concentrated,3529,False
+interface_topology,C1,LCDR2_L1_distributed,1815,False
+interface_topology,C2,framework_assisted,2249,False
+interface_topology,C3,LCDR3_L1_concentrated,4214,False
+interface_topology,C4,HCDR1_HCDR2_platform,3589,False
+interface_shape_geometry,C0,compact_contiguous_closed,6626,False
+interface_shape_geometry,C1,broad_segmented_open,8770,False
+interaction,C0,Hbond_sparse_mixed_contact,10308,False
+interaction,C1,Hbond_electrostatic_dense,4885,False
+interaction,C2,clash_rich_geometry_outlier,203,True
+cdr_conformation,C0,extended_structured_LCDR3,3133,False
+cdr_conformation,C1,protruding_curved_LCDR1,1888,False
+cdr_conformation,C2,compact_or_light_chain_absent,10375,False
+flexibility_disorder,C0,high_Bfactor_disorder,1277,False
+flexibility_disorder,C1,lower_Bfactor_ordered,14119,False
+solvent_interface_area,C0,paired_Fv_large_exposed_surface,10960,False
+solvent_interface_area,C1,single_heavy_compact_relative_burial,4436,False
+aa_pair_contact_composition,C-1,AApair_unresolved_no_close_contact_QC,1468,True
+aa_pair_contact_composition,C0,AApair_cdr_aromatic_to_basic + all_aromatic_to_basic,1735,False
+aa_pair_contact_composition,C1,AApair_cdr_polar_to_acidic + all_polar_to_acidic,2814,False
+aa_pair_contact_composition,C2,AApair_cdr_opposite_charge + all_opposite_charge,1951,False
+aa_pair_contact_composition,C3,AApair_all_hydrophobic_to_aromatic + cdr_hydrophobic_to_aromatic,2211,False
+aa_pair_contact_composition,C4,AApair_cdr_basic_to_basic + all_basic_to_basic,784,False
+aa_pair_contact_composition,C5,AApair_cdr_acidic_to_acidic + all_acidic_to_acidic,403,False
+aa_pair_contact_composition,C6,AApair_cdr_polar_polar + cdr_polar_to_polar,2262,False
+aa_pair_contact_composition,C7,AApair_all_aromatic_to_hydrophobic + cdr_aromatic_to_hydrophobic,1768,False
+antibody_sequence_composition,C-1,Sequence_unmapped_variable_domain_QC,1463,True
+antibody_sequence_composition,C0,Sequence_variable_polar + cdr_polar,8363,False
+antibody_sequence_composition,C1,Sequence_hcdr3_cdr + cdr_variable,5570,False

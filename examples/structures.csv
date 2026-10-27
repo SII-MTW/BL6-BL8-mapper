@@ -1,0 +1,3 @@
+record_id,path,antigen_chain,heavy_chain,light_chain,model_index
+example_fv,complex.cif,A,B,C,1
+example_vhh,vhh_complex.pdb,A,H,,1

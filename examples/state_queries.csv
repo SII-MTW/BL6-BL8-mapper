@@ -1,0 +1,7 @@
+record_id,interface_topology_state_code,interface_shape_geometry_state_code,interaction_state_code,cdr_conformation_state_code,flexibility_disorder_state_code,solvent_interface_area_state_code,aa_pair_contact_composition_state_code,antibody_sequence_composition_state_code
+reference_example_01,C3,C1,C0,C1,C0,C0,C6,C0
+reference_example_02,C1,C1,C0,C0,C1,C0,C0,C0
+reference_example_03,C4,C0,C0,C2,C0,C0,C5,C0
+reference_example_04,C4,C0,C0,C2,C0,C0,C4,C0
+reference_example_05,C1,C1,C1,C2,C1,C0,C-1,C-1
+reference_example_06,C3,C0,C0,C0,C1,C0,C-1,C0

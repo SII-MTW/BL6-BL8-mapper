@@ -1,0 +1,76 @@
+{
+  "release": "1.0.0",
+  "n_records": 15396,
+  "n_pdb_ids": 8273,
+  "n_bl6_signatures": 185,
+  "n_bl8_signatures": 1498,
+  "n_bl6_inputs": 230,
+  "n_bl8_inputs": 328,
+  "view_alias": {
+    "formal_chemistry": "interaction"
+  },
+  "reference_status": "frozen; no refitting during projection",
+  "structure_profile": "corrected_prediction_compatible",
+  "upstream_sha256": [
+    {
+      "file": "preprocessing_stats.json",
+      "sha256": "d65ae51adfd0a463a5b5e9d59aeac0f26342f39b431cd97acb290f546fbd21f6"
+    },
+    {
+      "file": "feature_dictionary.csv",
+      "sha256": "4c9c91dcc6c84ca4a6c9cefb70d1e7b2b2b29bac9378b183079f6f6f629dbf91"
+    },
+    {
+      "file": "interface_topology_state_centers_z.csv",
+      "sha256": "09cf50b519fc3259bd73f52c34d17c7ef4ee6c77dbdcf46c44df8ebbe4f52fe8"
+    },
+    {
+      "file": "interface_shape_geometry_state_centers_z.csv",
+      "sha256": "4c25b99946c3ea3bb1726224721fa4ed60d564d89c6823577dcd612e02da2311"
+    },
+    {
+      "file": "formal_chemistry_state_centers_z.csv",
+      "sha256": "c0769e6eaff9b95a5ac30dd5aa9f738f15f2cfcfab27a843f435b459e18ee533"
+    },
+    {
+      "file": "cdr_conformation_state_centers_z.csv",
+      "sha256": "d17c43431676a96abda73fffa72dc900f46b7e67148e9dd7b52e360325f9b09a"
+    },
+    {
+      "file": "flexibility_disorder_state_centers_z.csv",
+      "sha256": "72b0ee706bb6b42cf097e261fcaf58f2835947a0392d3747840e0359e0042ffa"
+    },
+    {
+      "file": "solvent_interface_area_state_centers_z.csv",
+      "sha256": "955b30aa3fd19dfd59c355a3a02eb10d28750e91d409afcb222f4fff4c9307c0"
+    },
+    {
+      "file": "aa_pair_contact_composition_state_centers_z.csv",
+      "sha256": "966320d7766294c9bd4d0ea31ad9c313763f8eb06640d1e4a1226de0f68664ba"
+    },
+    {
+      "file": "antibody_sequence_composition_state_centers_z.csv",
+      "sha256": "40d48e9a36b0bef4da244c2b0b099b9d9a0691b86d57ea11abe7ccdba9cca67e"
+    },
+    {
+      "file": "binding_language_catalog_185.csv",
+      "sha256": "c01eadfc0c000c47ffcc8fdcac634828a476b3d32cad37554e844f7685b7c5de"
+    },
+    {
+      "file": "complete_eight_view_language_catalog.csv",
+      "sha256": "bf157906f922d03d57bbcc63758c40be450610f8e865eb3ffd8f8b3bc1e7ee2d"
+    },
+    {
+      "file": "aa_pair_state_dictionary.csv",
+      "sha256": "cd377e78bd4ecfb14a3d9b4fa1a09585bb590598abba34f07f5215b7c142ff5a"
+    },
+    {
+      "file": "sequence_state_dictionary.csv",
+      "sha256": "de04cf796ba6b1d57bb78d374749f0b92fd83b65e60f4f8f0a574ae76b29dfb3"
+    },
+    {
+      "file": "map_pdl1_predictions_to_bl8.py",
+      "sha256": "328505ae7fec665160a6f60f82defaf94d02168a5fdf37aaab5e1ca2bf8d917e"
+    }
+  ]
+}

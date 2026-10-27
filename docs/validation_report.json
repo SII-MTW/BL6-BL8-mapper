@@ -1,0 +1,53 @@
+{
+  "reference_records_checked": 15396,
+  "frozen_bl6_catalog_entries": 185,
+  "frozen_bl8_catalog_entries": 1498,
+  "reference_training_label_disagreements_by_view": {
+    "interface_topology": 4,
+    "interface_shape_geometry": 2,
+    "interaction": 3,
+    "cdr_conformation": 0,
+    "flexibility_disorder": 0,
+    "solvent_interface_area": 0,
+    "aa_pair_contact_composition": 0,
+    "antibody_sequence_composition": 1
+  },
+  "reference_training_BL6_tuple_disagreements": 9,
+  "reference_training_BL8_tuple_disagreements": 10,
+  "reference_reprojection_status_counts": {
+    "covered": 15396
+  },
+  "boundary_note": "Existing training labels are retained in the frozen catalogs; nearest-center projection can differ for a small number of reference boundary records. Neither labels nor centers were refitted.",
+  "qc_states_preserved": true,
+  "structure_smoke_tests": [
+    {
+      "target": "PDL1",
+      "same_bl8_tuple_as_existing_corrected_mapping": true,
+      "matching_numerical_inputs": 328,
+      "total_inputs": 328,
+      "different_input_names": [],
+      "seconds": 6.48,
+      "selection_residue_mapping_entries": 347
+    },
+    {
+      "target": "RBD",
+      "same_bl8_tuple_as_existing_corrected_mapping": true,
+      "matching_numerical_inputs": 328,
+      "total_inputs": 328,
+      "different_input_names": [],
+      "seconds": 3.18,
+      "selection_residue_mapping_entries": 321
+    },
+    {
+      "target": "PD1",
+      "same_bl8_tuple_as_existing_corrected_mapping": true,
+      "matching_numerical_inputs": 328,
+      "total_inputs": 328,
+      "different_input_names": [],
+      "seconds": 6.13,
+      "selection_residue_mapping_entries": 391
+    }
+  ],
+  "raw_structures_distributed": false,
+  "reference_assets_unchanged_numerically": true
+}

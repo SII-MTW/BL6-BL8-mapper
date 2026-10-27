@@ -1,0 +1,18 @@
+{
+  "aa_pair_contact_composition_state_centers_z.csv": "a0f8a909022d5af733e320a954b5c68f06550114f61c90714b91fc8f4b8a33c5",
+  "aa_pair_state_dictionary.csv": "dea7076e686b9e0e2f19ba0a7114cbc0810a8778a82017a31de547cbb4cc8a1c",
+  "antibody_sequence_composition_state_centers_z.csv": "db6514e9fb81ce8dbc479ff0c5878b7f918b7117e7e280e52502479aa4299045",
+  "bl6_catalog.csv": "e58191d0ca0d2f88a0ffbde33ffd6ec6f2eea52aa685ebcfd52a3b2fc1cd2cfe",
+  "bl8_catalog.csv": "aac7916637cbfd5ebd54627379a42a2abb19d04acaf74bb0a70754e96e8ba2c6",
+  "cdr_conformation_state_centers_z.csv": "988248b88937c059cc48b061f93ae8f6dd90708e7a20db21c89b6dfa1d6c2abc",
+  "feature_dictionary.csv": "de6f8248bd208163a56dfaa1f91f9f44559f4748e436643516e1960dbdaa6fcd",
+  "flexibility_disorder_state_centers_z.csv": "6fbf17bcae089598fcb887bd5a596d4337a5aca7373addab863045eb588b058a",
+  "interaction_state_centers_z.csv": "51db592294b99397b3e02367b6054a9a71902e33e786d5a23cb2e916e2fd2415",
+  "interface_shape_geometry_state_centers_z.csv": "4dee43397c1fcf0737761372124c1a19b86ce9127672ed81ffa1b1571fe04006",
+  "interface_topology_state_centers_z.csv": "79a6ab85685715d04ca20488e5fb96dd7bdba2dd02827526bce5365a0f5eb505",
+  "preprocessing_stats.json": "7e51959443693afa4aa0df47843e76bec860849c202242d91fd7ac0025a41022",
+  "release_metadata.json": "5ac7ce1657d545ee98db2dfb503fce5184332a3f48969127d70ea9553482d7e6",
+  "sequence_state_dictionary.csv": "1a75001e7f208bc724a3cae6c52d5e21d50ff747dcac9bc0e44ccef3ec1de19c",
+  "solvent_interface_area_state_centers_z.csv": "a87774b92a1242c072d23f9b1d5b320d3ed2bd08b733cbfe0f3cc92cd821c262",
+  "state_dictionary.csv": "4dc2e12a77998865272f7143b8a672d0bc74d339d9aa2acfd81bebb4f5b167b0"
+}
